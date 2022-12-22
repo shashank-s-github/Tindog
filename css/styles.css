@@ -1,0 +1,199 @@
+body {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+  background-color: #ff205f;
+  color: white;
+}
+
+h1 {
+  font-family: "Anton";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ------Navbar starts here------ */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-";
+}
+
+/* ======Navbar ends here====== */
+
+/* ------Title starts here------ */
+
+.dog {
+  width: 300px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  bottom: -8%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* ======Title ends here====== */
+
+/* ------features starts here------ */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box {
+  padding: 5%;
+}
+
+#features h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ff205f;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #db043a;
+}
+
+/* ======features ends here====== */
+
+/* ------Testimonials starts here------ */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff205f;
+  color: white;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testi-image {
+  width: 300px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* ======Testimonials ends here====== */
+
+/* ------Press starts here------ */
+#press {
+  background-color: #ff205f;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* ======press ends here====== */
+
+/* ------pricing and buttons starts here------ */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.rates {
+  padding: 3% 2%;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-title {
+  background-color: rgb(236, 233, 233);
+  margin: 0 auto;
+}
+
+/* ======pricing and buttons ends here====== */
+
+/* ------bottom starts here------ */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 100px 100px 50px 100px;
+  text-align: center;
+}
+
+.description {
+  font-size: 4rem;
+  font-family: "Montserrat";
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+i {
+  margin: 10px;
+}
+
+.copyright {
+  color: #8f8f8f;
+  margin-top: 10px;
+}
+
+/* ------media queries starts here------ */
+
+@media (max-width: 1033px) {
+  .dog {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
